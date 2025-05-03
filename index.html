@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ujiicoffe</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+    />
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <a href="#" class="navbar-logo">Ujii<span>coffe</span>
+        </a>
+
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu Kami</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search" aria-label="Search">
+                <i data-feather="search"></i>
+            </a>
+            <a href="#" id="shopping-cart" aria-label="Shopping Cart">
+                <i data-feather="shopping-cart"></i>
+            </a>
+            <a href="#" id="burger-menu" aria-label="Menu">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>
+                Mari Nikmati Secangkir <span>Kopi</span>
+            </h1>
+            <p>
+                Nikmati secangkir kopi hangat dengan suasana yang nyaman dan ramah.
+            </p>
+            <a href="#" class="cta">Beli Sekarang</a>
+        </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+        <h2>
+            <span>Tentang</span> Kami
+        </h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+            </div>
+            <div class="content">
+                <h3>Kenapa Memilih Kopi Kami?</h3>
+                <p>
+                    Kami menyajikan kopi berkualitas dengan cita rasa autentik yang memanjakan lidah Anda.
+                </p>
+                <p>
+                    Nikmati suasana santai sambil menikmati berbagai pilihan kopi dan camilan khas kami.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="menu">
+        <h2>
+            <span>Menu</span> Kami
+        </h2>
+        <p>Berbagai pilihan kopi dan minuman hangat yang siap menemani hari Anda.</p>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="img/kopi-hitam.jpg" alt="Kopi Hitam" />
+                <h3>Kopi Hitam</h3>
+                <p>Kopi hitam asli dengan aroma yang kuat dan rasa yang nikmat.</p>
+                <span class="price">Rp 10.000</span>
+            </div>
+            <div class="menu-item">
+                <img src="img/kopi-susu.jpg" alt="Kopi Susu" />
+                <h3>Kopi Susu</h3>
+                <p>Kopi dengan campuran susu segar, lembut dan manis.</p>
+                <span class="price">Rp 12.000</span>
+            </div>
+            <div class="menu-item">
+                <img src="img/espresso.jpg" alt="Espresso" />
+                <h3>Espresso</h3>
+                <p>Espresso pekat dengan cita rasa khas kopi Italia.</p>
+                <span class="price">Rp 15.000</span>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- contact section start -->
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Hubungi kami untuk informasi lebih lanjut atau pemesanan.</p>
+        <div class="row contact-content"> 
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1234567890123!2d110.1234567890123!3d-7.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1234567890ab%3A0x1234567890abcdef!2sWarkop%20Ujiicoffe!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" 
+                class="map"></iframe>
+            </div>
+            <form action="">
+                <div class="input-grup">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="nohp">
+                </div>
+                <button type="submit" class="btn"> Kirim Pesan</button>
+            </form>
+        </div>
+        
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#homme"> Home </a>
+            <a href="#about"> Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+
+        <div class="credit">
+            <p>Created By <a href="">Fauzi Gilang Raihan</a>. |&copy; 2025.</p>
+        </div>
+    </footer>
+
+
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- my js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
